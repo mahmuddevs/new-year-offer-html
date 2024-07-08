@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section,
+.f-content {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 600px;
+    border-radius: 16px;
+    background: url('../assets/images/Banner\ Image.png'), linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    background-blend-mode: overlay;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merriweather";
+    margin-bottom: 120px;
+}
+
+
+.header h4 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.header h1 {
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    text-align: center;
+}
+
+.h-deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+    margin-bottom: 120px;
+}
+
+.h-deals h2 {
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    margin-bottom: 48px;
+}
+
+.h-deals h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.h-deals h3 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.h-deals img {
+    max-width: 802.9px;
+    max-height: 500px;
+}
+
+.party {
+    height: 600px;
+
+    background: url("../assets/images/Vectorrr.png"), linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    font-family: "Merriweather";
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    margin-bottom: 120px;
+}
+
+.party-txt {
+    max-width: 697px;
+}
+
+.party-txt h2 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.party-txt p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.party-txt a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 32px;
+}
+
+.party img {
+    max-width: 349.16px;
+    height: 464.65px;
+}
+
+.join {
+    max-width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+}
+
+.join h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.join h4 span {
+    color: rgb(255, 0, 0);
+}
+
+.join .btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.best-offer {
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter";
+    margin-bottom: 120px;
+}
+
+.offer-txt-left {
+    max-width: 393px;
+}
+
+.offer-txt-left h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-txt-left h2 {
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.offer-txt-left p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-offer>img {
+    border: 15px solid rgb(255, 0, 0);
+    padding: 49px;
+    border-radius: 50%;
+}
+
+.offer-txt-right {
+    max-width: 276px;
+    align-self: flex-end;
+}
+
+.offer-txt-right h2 {
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.offer-txt-right p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 46.5px;
+}
+
+.functional-txt {
+    font-family: "Inter";
+    text-align: center;
+    max-width: 1068px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.functional-txt h4 {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.functional-txt h2 {
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-bottom: 28px;
+}
+
+.functional-txt h2 span {
+    color: rgb(255, 0, 0);
+}
+
+.functional-txt p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 32px;
+    line-height: 32px;
+}
+
+.discount {
+    height: 662.07px;
+    background: url("../assets/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.discount .discount-img {
+    position: absolute;
+    top: 95px;
+    right: 58px;
+}
+
+.portfolio {
+    font-family: "Inter";
+    margin-bottom: 120px;
+}
+
+.portfolio h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio h2 {
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.grid img {
+    max-width: 424px;
+    border-radius: 16px;
+}
+
+.newsletter {
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    font-family: "Inter";
+    margin-bottom: 120px;
+}
+
+.newsletter img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.newsletter h2 {
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.newsletter-form {
+    display: flex;
+}
+
+.newsletter-form input {
+    width: 438px;
+    height: 72px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    color: rgba(7, 2, 17, 0.3);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 25px;
+    outline: none;
+}
+
+.newsletter-form button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    outline: none;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer {
+    height: 609px;
+    background: rgb(7, 2, 17);
+    font-family: "Inter";
+}
+
+.f-txt {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 49.5px 0;
+}
+
+.f-content .address {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.f-content .contact a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact a {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 11px;
+}
+
+.f-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48.5px 0;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50.5px;
+}
